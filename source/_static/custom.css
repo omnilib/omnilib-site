@@ -1,0 +1,15 @@
+div.social {
+    margin-top: 24px;
+}
+
+div.social a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 24px;
+    border: none;
+}
+
+div.social a:hover {
+    color: #777;
+    border: none;
+}
