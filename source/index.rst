@@ -11,6 +11,7 @@ Projects
 --------
 
 * :ref:`project-aioitertools` — itertools and more for AsyncIO
+* :ref:`project-aiomultiprocess` — Take modern Python to the next level of performance.
 * :ref:`project-aiosqlite` — Friendly, async interface to sqlite databases
 
 
