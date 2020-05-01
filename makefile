@@ -5,5 +5,9 @@ html: source/* .venv
 	python -m venv .venv
 	source .venv/bin/activate && python -m pip install -Ur requirements.txt
 
+TARGET := "site"
+publish: html
+	rsync -av --delete html/ $(TARGET)/
+
 clean:
 	rm -rf html
