@@ -10,6 +10,7 @@ rules.
 Projects
 --------
 
+* :ref:`project-aioitertools` — itertools and more for AsyncIO
 * :ref:`project-aiosqlite` — Friendly, async interface to sqlite databases
 
 
