@@ -6,8 +6,8 @@ Projects
 
 .. _project-aioitertools:
 
-`aioitertools <https://aiosqlite.omnilib.dev>`_
------------------------------------------------
+`aioitertools <https://aioitertools.omnilib.dev>`_
+--------------------------------------------------
 
 .. raw:: html
 
