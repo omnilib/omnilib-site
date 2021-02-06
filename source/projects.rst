@@ -5,28 +5,28 @@ Projects
 
 Every Omnilib project follows an inclusive :ref:`code-of-conduct` for all contributers.
 
-:ref:`project-aioitertools`
----------------------------
+:ref:`aioitertools <project-aioitertools>`
+------------------------------------------
 
 itertools and more for AsyncIO
 
-:ref:`project-aiomultiprocess`
-------------------------------
+:ref:`aiomultiprocess <project-aiomultiprocess>`
+------------------------------------------------
 
 The best of AsyncIO and multiprocessing combined
 
-:ref:`project-aiosqlite`
-------------------------
+:ref:`aiosqlite <project-aiosqlite>`
+------------------------------------
 
 Friendly, async interface to sqlite databases
 
-:ref:`project-aql`
-------------------
+:ref:`aql <project-aql>`
+------------------------
 
 Async, typing-friendly query generator for SQL databases
 
-:ref:`project-attribution`
---------------------------
+:ref:`attribution <project-attribution>`
+----------------------------------------
 
 Changelog generator and release tag manager
 
