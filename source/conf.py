@@ -45,29 +45,40 @@ exclude_patterns = []
 highlight_language = "python3"
 intersphinx_mapping = {"python": ("https://docs.python.org/3", None)}
 master_doc = "index"
+hide_toc = True
 
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "alabaster"
+html_theme = "furo"
+html_title = "The Omnilib Project"
 html_theme_options = {
-    "description": "",
-    "fixed_sidebar": True,
-    "badge_branch": "master",
-    "github_button": False,
-    "show_powered_by": False,
-    "sidebar_collapse": False,
+    "light_css_variables": {
+        "color-brand-primary": "#8077a8",
+        "color-link": "#8077a8",
+        "color-link--hover": "#8077a8",
+        "sidebar-item-font-size": "16px",
+    },
+    "light_logo": "",
+    "dark_css_variables": {
+        "color-brand-primary": "#a489d2",
+        "color-link": "#a489d2",
+        "color-link--hover": "#a489d2",
+        "sidebar-item-font-size": "16px",
+    },
+    "dark_logo": "",
+    "navigation_with_keys": True,
 }
 
 html_sidebars = {
     "**": [
-        "about.html",
-        "navigation.html",
-        "relations.html",
-        "searchbox.html",
-        "badges.html",
+        "sidebar/brand.html",
+        "sidebar/search.html",
+        "sidebar/scroll-start.html",
+        "sidebar/navigation.html",
+        "sidebar/scroll-end.html",
     ],
 }
 
