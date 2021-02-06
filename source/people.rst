@@ -8,7 +8,7 @@ Maintainers
     :width: 150px
 
 `John Reese <https://jreese.sh>`_ — `@n7cmdr <https://twitter.com/n7cmdr>`_ —
-creater of Omnilib and multiple Python libraries, including `aiomultiprocess`
+creater of Omnilib and multiple Python libraries, including :ref:`project-aiomultiprocess`
 and :ref:`project-aiosqlite`.
 
 

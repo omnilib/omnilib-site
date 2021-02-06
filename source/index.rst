@@ -6,15 +6,9 @@ under a common, inclusive :ref:`code-of-conduct`. Omnilib is committed to
 providing a welcoming and open space for all contributors who adhere to these
 rules.
 
-
-Projects
---------
-
-* :ref:`project-aioitertools` — itertools and more for AsyncIO
-* :ref:`project-aiomultiprocess` — Take modern Python to the next level of performance.
-* :ref:`project-aiosqlite` — Friendly, async interface to sqlite databases
-
-
+.. include:: projects.rst
+    :start-line: 7
+    :end-before: toctree
 
 .. toctree::
     :hidden:
