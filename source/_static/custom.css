@@ -1,5 +1,8 @@
+@import "webfonts/all.min.css";
+
 div.social {
     margin-top: 24px;
+    padding-left: 18px;
 }
 
 div.social a {

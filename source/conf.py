@@ -69,7 +69,6 @@ html_theme_options = {
         "sidebar-item-font-size": "16px",
     },
     "dark_logo": "",
-    "navigation_with_keys": True,
 }
 
 html_sidebars = {
@@ -78,6 +77,7 @@ html_sidebars = {
         "sidebar/search.html",
         "sidebar/scroll-start.html",
         "sidebar/navigation.html",
+        "badges.html",
         "sidebar/scroll-end.html",
     ],
 }
@@ -86,3 +86,6 @@ html_sidebars = {
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
+html_css_files = [
+    'custom.css',
+]
