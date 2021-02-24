@@ -61,14 +61,15 @@ html_theme_options = {
         "color-link--hover": "#8077a8",
         "sidebar-item-font-size": "16px",
     },
-    "light_logo": "",
+    "light_logo": "logo.png",
     "dark_css_variables": {
+        "color-background-secondary": "#131416",
         "color-brand-primary": "#a489d2",
         "color-link": "#a489d2",
         "color-link--hover": "#a489d2",
         "sidebar-item-font-size": "16px",
     },
-    "dark_logo": "",
+    "dark_logo": "logo.png",
 }
 
 html_sidebars = {
@@ -81,6 +82,9 @@ html_sidebars = {
         "sidebar/scroll-end.html",
     ],
 }
+
+pygments_style = "witchhazel.WitchHazelStyle"
+pygments_dark_style = "witchhazel.WitchHazelStyle"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

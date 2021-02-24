@@ -1,5 +1,9 @@
 @import "webfonts/all.min.css";
 
+span.sidebar-brand-text {
+    color: var(--color-link--hover);
+}
+
 div.social {
     margin-top: 24px;
     padding-left: 18px;
