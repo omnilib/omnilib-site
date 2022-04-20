@@ -1,9 +1,10 @@
 html: source/* .venv
-	source .venv/bin/activate && sphinx-build -b html source html
+	.venv/bin/sphinx-build -ab html source html
 
 .venv:
 	python -m venv .venv
-	source .venv/bin/activate && python -m pip install -Ur requirements.txt
+	.venv/bin/python -m pip install -U pip
+	.venv/bin/python -m pip install -Ur requirements.txt
 
 contrib:
 	rm -f build/contributors

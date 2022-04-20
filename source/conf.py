@@ -30,8 +30,8 @@ author = "John Reese"
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "m2r",
     "sphinx.ext.intersphinx",
+    "sphinx_mdinclude",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -45,46 +45,48 @@ exclude_patterns = []
 highlight_language = "python3"
 intersphinx_mapping = {"python": ("https://docs.python.org/3", None)}
 master_doc = "index"
-hide_toc = True
 
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "furo"
+html_theme = "alabaster"
 html_title = "The Omnilib Project"
 html_theme_options = {
-    "light_css_variables": {
-        "color-brand-primary": "#8077a8",
-        "color-link": "#8077a8",
-        "color-link--hover": "#8077a8",
-        "sidebar-item-font-size": "16px",
+    "logo": "omnilib.png",
+    # "logo_name": True,
+    "description": "",
+    "fixed_sidebar": True,
+    "badge_branch": "main",
+    "github_button": False,
+    "github_user": "omnilib",
+    "github_repo": "omnilib-site",
+    "show_powered_by": False,
+    "sidebar_collapse": False,
+    "extra_nav_links": {
     },
-    "light_logo": "logo.png",
-    "dark_css_variables": {
-        "color-background-secondary": "#131416",
-        "color-brand-primary": "#a489d2",
-        "color-link": "#a489d2",
-        "color-link--hover": "#a489d2",
-        "sidebar-item-font-size": "16px",
-    },
-    "dark_logo": "logo.png",
+    "font_family": "lato, Helvetica, sans-serif",
+    "code_font_family": (
+        "input-mono-narrow, 'Consolas', 'Menlo', 'DejaVu Sans Mono', "
+        "'Bitstream Vera Sans Mono', monospace"
+    ),
+    "head_font_family": "ff-tisa-web-pro, Georgia, serif",
+    "head_font_size": "280%",
 }
 
 html_sidebars = {
     "**": [
-        "sidebar/brand.html",
-        "sidebar/search.html",
-        "sidebar/scroll-start.html",
-        "sidebar/navigation.html",
-        "badges.html",
-        "sidebar/scroll-end.html",
+        "about.html",
+        # "badges.html",
+        "navigation.html",
+        "relations.html",
+        "omnilib.html",
     ],
 }
 
-pygments_style = "witchhazel.WitchHazelStyle"
-pygments_dark_style = "witchhazel.WitchHazelStyle"
+# pygments_style = "witchhazel.WitchHazelStyle"
+# pygments_dark_style = "witchhazel.WitchHazelStyle"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

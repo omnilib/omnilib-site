@@ -1,4 +1,3 @@
-sphinx==3.4.3
-furo==2020.12.30b24
+sphinx==4.5.0
 witchhazel==2018.8.23
-git+https://github.com/miyakogi/m2r@66f4a5a500cdd9fc59085106bff082c9cadafaf3
+sphinx-mdinclude==0.5.1

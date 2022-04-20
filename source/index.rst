@@ -1,13 +1,8 @@
 The Omnilib Project
 ===================
 
-Omnilib is a group of high quality, MIT licensed software libraries developed
-under a common, inclusive :ref:`code-of-conduct`. Omnilib is committed to
-providing a welcoming and open space for all contributors who adhere to these
-rules.
-
 .. include:: projects.rst
-    :start-line: 7
+    :start-line: 3
     :end-before: toctree
 
 .. toctree::

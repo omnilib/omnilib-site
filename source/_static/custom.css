@@ -1,22 +1,24 @@
-@import "webfonts/all.min.css";
-
-span.sidebar-brand-text {
-    color: var(--color-link--hover);
-}
-
-div.social {
+div.omnilib {
     margin-top: 24px;
-    padding-left: 18px;
 }
 
-div.social a {
-    color: var(--color-foreground-secondary);
+div.omnilib-badges {
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+div.omnilib-badges a {
+    color: #bbb;
     text-decoration: none;
     font-size: 24px;
     border: none;
 }
 
-div.social a:hover {
-    color: var(--color-link--hover);
+div.omnilib-badges a:hover {
+    color: #97F;
     border: none;
+}
+
+div.sphinxsidebarwrapper h1.logo a {
+    font-family: ff-tisa-web-pro, Georgia, serif;
 }

@@ -44,4 +44,4 @@ entire release preparation process with a single command:
 
 .. raw:: html
 
-    <script src="https://buttons.github.io/buttons.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
