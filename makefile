@@ -6,8 +6,18 @@ html: source/* .venv
 	source .venv/bin/activate && python -m pip install -Ur requirements.txt
 
 contrib:
-	rm build/contributors
-	for repo in aioitertools aiomultiprocess aiosqlite aql attribution ; do \
+	rm -f build/contributors
+	for repo in \
+			aioitertools \
+			aiomultiprocess \
+			aiosqlite \
+			aql \
+			attribution \
+			stdlibs \
+			thx \
+			trailrunner \
+			ufmt \
+		; do \
 		git clone https://github.com/omnilib/$$repo.git build/$$repo ; \
 		git -C build/$$repo shortlog -s | cut -d'	' -f2- >> build/contributors ; \
 	done
