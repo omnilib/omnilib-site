@@ -72,7 +72,6 @@ html_theme_options = {
         "'Bitstream Vera Sans Mono', monospace"
     ),
     "head_font_family": "ff-tisa-web-pro, Georgia, serif",
-    "head_font_size": "280%",
 }
 
 html_sidebars = {

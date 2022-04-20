@@ -12,7 +12,7 @@ CI jobs to validate your contribution against the project's test suite,
 type checker, and any linters, so you can get immediate, technical feedback.
 
 If you would like to contribute, but aren't sure where to start, take a look
-at the list of :ref:`Omnlib projects <projects>` to see if any of them seem
+at the list of :ref:`Omnilib projects <projects>` to see if any of them seem
 interesting to you. Follow the links to their Github repositories, and look
 for open issues, ideally ones tagged with "good first issue" or "hacktoberfest".
 These issues should be relatively small in size, or require less knowledge of
