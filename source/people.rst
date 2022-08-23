@@ -4,10 +4,10 @@ People
 Maintainers
 -----------
 
-.. image:: _static/jreese.jpg
+.. image:: _static/amethyst.jpg
     :width: 150px
 
-`John Reese <https://jreese.sh>`_ — `@n7cmdr <https://twitter.com/n7cmdr>`_ —
+`Amethyst Reese <https://n7.gg>`_ — `@n7cmdr <https://twitter.com/n7cmdr>`_ —
 creater of Omnilib and multiple Python libraries, including :ref:`project-aiomultiprocess`
 and :ref:`project-aiosqlite`.
 
