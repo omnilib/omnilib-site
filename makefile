@@ -7,7 +7,9 @@ html: source/* .venv
 	.venv/bin/python -m pip install -Ur requirements.txt
 
 contrib:
-	rm -f build/contributors
+	rm -rf build/
+	mkdir -p build/
+	git shortlog -s | cut -d'	' -f2- >> build/contributors ; \
 	for repo in \
 			aioitertools \
 			aiomultiprocess \
