@@ -2,9 +2,11 @@
 * Alexander Lyon
 * Alexei Chetroi
 * Alexey Simuskov
+* Amethyst Reese
 * Bryan Forbes
 * Caleb Hattingh
 * Daniel Ip
+* Daniel Miranda
 * dark0ghost
 * dependabot[bot]
 * DevilXD
@@ -27,6 +29,8 @@
 * Matthew Schubert
 * Minsung.Kim
 * montag451
+* Nico0 Smart
+* Nicolas Martinez
 * Nuno André
 * Pavol Vargovcik
 * Philip Meier
@@ -45,6 +49,7 @@
 * tat2grl85
 * Thomas Grainger
 * Tim Hatch
+* vexelnet
 * Vladimir Solomatin
 * Vladislav Yarmak
 * x1ah
