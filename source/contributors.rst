@@ -40,6 +40,7 @@
 * Richard Schwab
 * Roger Aiudi
 * Ryan Scott Brown
+* Samuel Giffard
 * shipmints
 * Simon Willison
 * smheidrich
