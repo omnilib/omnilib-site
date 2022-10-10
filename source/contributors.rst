@@ -3,8 +3,12 @@
 * Alexei Chetroi
 * Alexey Simuskov
 * Amethyst Reese
+* Bas Nijholt
 * Bryan Forbes
 * Caleb Hattingh
+* cclauss
+* CrossNox
+* Daniel Caballero
 * Daniel Ip
 * Daniel Miranda
 * dark0ghost
@@ -13,13 +17,20 @@
 * Dima Tisnek
 * Dmitriy Ferens
 * dmitrypolo
+* Ezequiel Rosas
 * Grigi
 * Groosha
 * HJK
+* illes
+* Jake VanderPlas
 * Jason Fried
 * John Reese
+* John W. O'Brien
 * Justin Kula
+* Kai Fricke
+* kalvdans
 * Kevin Stone
+* kyluca
 * Linus Lewandowski
 * Lonami
 * Lonami Exo
@@ -28,10 +39,15 @@
 * Mathieu Kniewallner
 * Matthew Schubert
 * Minsung.Kim
+* miyakogi
 * montag451
+* Morgan Willcock
 * Nico0 Smart
 * Nicolas Martinez
+* Nikola Forró
 * Nuno André
+* pandaninjas
+* Patrick Hoefler
 * Pavol Vargovcik
 * Philip Meier
 * Pranab
@@ -39,6 +55,7 @@
 * pyup.io bot
 * Richard Schwab
 * Roger Aiudi
+* Ryan Lane
 * Ryan Scott Brown
 * Samuel Giffard
 * shipmints
