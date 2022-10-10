@@ -1,3 +1,4 @@
+.PHONY: html
 html: source/* .venv
 	.venv/bin/sphinx-build -ab html source html
 
@@ -6,6 +7,7 @@ html: source/* .venv
 	.venv/bin/python -m pip install -U pip
 	.venv/bin/python -m pip install -Ur requirements.txt
 
+.PHONY: contrib
 contrib:
 	rm -rf build/
 	mkdir -p build/
@@ -16,6 +18,7 @@ contrib:
 			aiosqlite \
 			aql \
 			attribution \
+			sphinx-mdinclude \
 			stdlibs \
 			thx \
 			trailrunner \

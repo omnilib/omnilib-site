@@ -10,16 +10,9 @@ rules.
 
 
 .. toctree::
+    :glob:
 
-    project/aioitertools
-    project/aiomultiprocess
-    project/aiosqlite
-    project/aql
-    project/attribution
-    project/stdlibs
-    project/thx
-    project/trailrunner
-    project/ufmt
+    project/*
 
 .. raw:: html
 

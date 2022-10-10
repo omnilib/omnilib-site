@@ -59,6 +59,12 @@ Changelog generator and release tag manager.
 Simple list of top-level packages in Python's stdlib.
 
 
+:ref:`sphinx-mdinclude <project-sphinx-mdinclude>`
+--------------------------------------------------
+
+Sphinx extension for including or writing pages in Markdown format.
+
+
 :ref:`thx <project-thx>`
 ------------------------
 
