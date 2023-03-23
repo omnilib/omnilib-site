@@ -23,6 +23,7 @@ contrib:
 			thx \
 			trailrunner \
 			ufmt \
+			vscode-ufmt \
 		; do \
 		git clone https://github.com/omnilib/$$repo.git build/$$repo ; \
 		git -C build/$$repo shortlog -s | cut -d'	' -f2- >> build/contributors ; \

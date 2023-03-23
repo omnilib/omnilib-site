@@ -29,6 +29,7 @@
 * Justin Kula
 * Kai Fricke
 * kalvdans
+* Kartik Raj
 * Kevin Stone
 * kyluca
 * Linus Lewandowski
