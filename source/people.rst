@@ -4,12 +4,17 @@ People
 Maintainers
 -----------
 
-.. image:: _static/amethyst.jpg
+.. image:: _static/amethyst.png
     :width: 150px
 
-`Amethyst Reese <https://n7.gg>`_ — `@n7cmdr <https://twitter.com/n7cmdr>`_ —
+`Amethyst Reese <https://n7.gg>`_ — `@amethyst <https://toots.n7.gg/@amethyst>`_ —
 creater of Omnilib and multiple Python libraries, including :ref:`project-aiomultiprocess`
 and :ref:`project-aiosqlite`.
+
+.. raw:: html
+
+    <link rel="me" href="https://n7.gg" />
+    <link rel="me" href="https://toots.n7.gg/@amethyst" />
 
 
 Contributors
