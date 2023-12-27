@@ -1,4 +1,5 @@
 * A Connecticut Princess
+* Aarni Koskela
 * Alexander Lyon
 * Alexei Chetroi
 * Alexey Simuskov
@@ -8,6 +9,7 @@
 * Caleb Hattingh
 * cclauss
 * CrossNox
+* Daniel Baulig
 * Daniel Caballero
 * Daniel Ip
 * Daniel Miranda
@@ -24,7 +26,6 @@
 * illes
 * Jake VanderPlas
 * Jason Fried
-* John Reese
 * John W. O'Brien
 * Justin Kula
 * Kai Fricke
@@ -39,6 +40,7 @@
 * Mark Rofail
 * Mathieu Kniewallner
 * Matthew Schubert
+* mike bayer
 * Minsung.Kim
 * miyakogi
 * montag451
@@ -59,6 +61,7 @@
 * Ryan Lane
 * Ryan Scott Brown
 * Samuel Giffard
+* Sergey Goder
 * shipmints
 * Simon Willison
 * smheidrich
