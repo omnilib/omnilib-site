@@ -1,6 +1,10 @@
 The Omnilib Project
 ===================
 
+.. raw:: html
+
+    <link rel="me" href="https://fosstodon.org/@omnilib" />
+
 .. toctree::
     :hidden:
     :maxdepth: 2
